@@ -1,0 +1,47 @@
+﻿@model _1291387.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    .details-wrapper {
+        background: #fdfdfd;
+        border-radius: 12px;
+        padding: 40px;
+        max-width: 600px;
+        margin: 50px auto;
+        border-left: 6px solid #17a2b8;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .label-text {
+        font-size: 0.9rem;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .value-text {
+        font-size: 1.8rem;
+        color: #333;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="details-wrapper">
+    <div class="label-text">Category View</div>
+    <h2 class="mb-4">Information Overview</h2>
+
+    <div class="mb-3">
+        <div class="label-text">@Html.DisplayNameFor(model => model.CategoryName)</div>
+        <div class="value-text">@Html.DisplayFor(model => model.CategoryName)</div>
+    </div>
+
+    <div class="mt-5 pt-3 border-top">
+        @Html.ActionLink("Edit Details", "Edit", new { id = Model.CategoryId }, new { @class = "btn btn-info text-white px-4" })
+        <span class="mx-2 text-muted">|</span>
+        @Html.ActionLink("Go Back", "Index", null, new { @class = "text-muted", style = "text-decoration:none" })
+    </div>
+</div>

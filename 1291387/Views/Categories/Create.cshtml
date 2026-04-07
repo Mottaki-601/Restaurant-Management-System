@@ -1,0 +1,90 @@
+﻿@model _1291387.Models.Category
+
+@{
+    ViewBag.Title = "Add Category";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="card-header bg-primary text-white text-center py-4"
+                     style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <div class="mb-2">
+                        <i class="fa fa-folder-plus fa-3x"></i>
+                    </div>
+                    <h2 class="fw-bold m-0">New Category</h2>
+                    <small class="text-white-50">Organize your food items easily</small>
+                </div>
+
+                <div class="card-body p-5 bg-white">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger small mb-3" })
+
+                            <div class="form-floating mb-4">
+                                <label for="CategoryName" class="text-muted fw-bold mb-2 d-block">@*Category Name*@</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-transparent border-end-0 rounded-start-pill">
+                                        <i class="fa fa-pencil text-primary"></i>
+                                    </span>
+                                    @Html.EditorFor(model => model.CategoryName, new
+                                    {
+                                        htmlAttributes = new
+                                        {
+                                            @class = "form-control border-start-0 rounded-end-pill px-3 shadow-none",
+                                            placeholder = "e.g. Fast Food, Desserts"
+                                        }
+                                    })
+                                </div>
+                                @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger small ms-2" })
+                            </div>
+
+                            <div class="d-grid gap-2 pt-2">
+                                <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow-sm py-3 fw-bold"
+                                        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none;">
+                                    <i class="fa fa-check-circle me-2"></i> Create Category
+                                </button>
+
+                                <a href="@Url.Action("Index")" class="btn btn-light btn-sm rounded-pill mt-2 py-2">
+                                    <i class="fa fa-arrow-left"></i> Cancel and Return
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-control {
+        border-color: #e0e0e0;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #764ba2;
+            background-color: #f8f9ff;
+        }
+
+    .input-group-text {
+        border-color: #e0e0e0;
+    }
+
+    .card {
+        transition: transform 0.4s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+</style>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

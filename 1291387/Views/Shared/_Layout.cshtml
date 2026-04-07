@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MFC Food Manager</title>
+
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lobster&display=swap" rel="stylesheet">
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdf2f2; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar-custom {
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            box-shadow: 0 4px 15px rgba(255, 75, 43, 0.3);
+            padding: 15px 0;
+        }
+
+        .navbar-brand-custom {
+            font-family: 'Lobster', cursive;
+            font-size: 1.8rem;
+            color: #fff !important;
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+            font-weight: 500;
+            transition: 0.3s;
+            margin: 0 5px;
+        }
+
+            .nav-link:hover {
+                color: #fff !important;
+                transform: translateY(-2px);
+                text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            }
+
+            .nav-link i {
+                margin-right: 5px;
+            }
+
+        .body-content {
+            flex: 1;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        footer {
+            background-color: #2d3436;
+            color: #b2bec3;
+            padding: 40px 0 20px;
+            margin-top: auto;
+        }
+
+        .footer-logo {
+            font-family: 'Lobster', cursive;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .footer-link {
+            color: #b2bec3;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: 0.3s;
+        }
+
+            .footer-link:hover {
+                color: #ff4b2b;
+            }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <a href="@Url.Action("Index", "Home")" class="navbar-brand navbar-brand-custom">
+                <i class="fa fa-utensils me-2"></i> MFC Kitchen
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "Home")" class="nav-link">
+                            <i class="fa fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "Categories")" class="nav-link">
+                            <i class="fa fa-list-alt"></i> Categories
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "FoodItems")" class="nav-link">
+                            <i class="fa fa-pizza-slice"></i> Food Items
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "Foods")" class="nav-link">
+                            <i class="fa fa-hamburger"></i> Manage Menu
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="ms-3">
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <span class="footer-logo">MFC Kitchen</span>
+                    <p class="small mt-2">Serving delicious management solutions since @DateTime.Now.Year</p>
+                </div>
+            </div>
+            <div class="mb-3">
+                <a href="#" class="footer-link"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="#" class="footer-link"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#" class="footer-link"><i class="fa fa-instagram fa-lg"></i></a>
+            </div>
+            <hr style="border-color: #636e72;">
+            <p class="mb-0 small">&copy; @DateTime.Now.Year - MFC Foods Management System. All rights reserved.</p>
+            <p class="small text-muted">Contact: mottakib0@gmail.com</p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

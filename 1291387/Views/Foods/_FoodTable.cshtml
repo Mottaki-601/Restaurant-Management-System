@@ -1,0 +1,150 @@
+﻿@model IEnumerable<_1291387.Models.FastFood>
+
+<style>
+    .table-header-custom th {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+        border: none;
+        padding: 15px;
+        vertical-align: middle;
+    }
+
+    .table-header-custom th:first-child { border-top-left-radius: 12px; }
+    .table-header-custom th:last-child { border-top-right-radius: 12px; }
+
+    .btn-action {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s;
+        border: none;
+    }
+    .btn-action:hover { transform: scale(1.1); }
+    
+    .btn-edit { background-color: #e0f2fe; color: #0284c7; } 
+    .btn-delete { background-color: #fee2e2; color: #dc2626; } 
+
+    .img-avatar {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .badge-soft-primary { background-color: rgba(13, 110, 253, 0.1); color: #0d6efd; border: 1px solid rgba(13, 110, 253, 0.2); }
+    .badge-soft-success { background-color: rgba(25, 135, 84, 0.1); color: #198754; }
+    .badge-soft-danger { background-color: rgba(220, 53, 69, 0.1); color: #dc3545; }
+</style>
+
+<div class="table-responsive rounded-3 shadow-sm">
+    <table class="table table-hover align-middle mb-0 bg-white">
+        <thead class="table-header-custom">
+            <tr>
+                <th style="width: 50px;"></th> <th>Picture</th>
+                <th>Category</th>
+                <th>Item Name</th>
+                <th>Introduced</th>
+                <th>Available</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td class="text-center">
+                        <button type="button" class="btn btn-light btn-sm rounded-circle toggle-btn shadow-sm text-secondary" style="width: 30px; height: 30px;">
+                            <i class="fa fa-chevron-right" style="font-size: 0.8rem;"></i>
+                        </button>
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(s.Picture))
+                        {
+                            <img src="~/Images/@s.Picture" class="img-avatar" />
+                        }
+                        else
+                        {
+                            <span class="badge bg-light text-muted border">No IMG</span>
+                        }
+                    </td>
+                    <td>
+                        <span class="badge badge-soft-primary rounded-pill px-3 py-2">
+                            @s.Category.CategoryName
+                        </span>
+                    </td>
+                    <td class="fw-bold text-dark">@s.FoodItem.ItemName</td>
+                    <td class="text-muted small">@s.FirstIntroduceOn.ToString("dd MMM yyyy")</td>
+                    <td>
+                        @if (s.isAvailable)
+                        {
+                            <span class="badge badge-soft-success rounded-pill px-3">
+                                <i class="fas fa-check-circle me-1"></i> In Stock
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-soft-danger rounded-pill px-3">
+                                <i class="fas fa-times-circle me-1"></i> Out of Stock
+                            </span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <a href="@Url.Action("Edit", "Foods", new { id = s.FastFoodId })" class="btn-action btn-edit me-2 shadow-sm" title="Edit">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <button class="btn-action btn-delete shadow-sm" onclick="deleteItem(@s.FastFoodId)" title="Delete">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </td>
+                </tr>
+                
+                <tr style="display:none; background-color: #f8faff;">
+                    <td></td>
+                    <td colspan="6" class="p-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white border-bottom border-light">
+                                <h6 class="text-primary fw-bold mb-0 small text-uppercase">
+                                    <i class="fas fa-tags me-1"></i> Stock Variations
+                                </h6>
+                            </div>
+                            <div class="card-body p-0">
+                                <table class="table table-sm table-striped mb-0">
+                                    <thead class="bg-light text-secondary small">
+                                        <tr>
+                                            <th class="ps-4">Size</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var t in s.Stocks)
+                                        {
+                                            <tr>
+                                                <td class="ps-4 fw-bold text-secondary">@t.Size</td>
+                                                <td class="text-success fw-bold">$@t.Price.ToString("0.00")</td>
+                                                <td>
+                                                    <span class="badge bg-warning text-dark border border-warning bg-opacity-25">
+                                                        @t.Quantity pcs
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

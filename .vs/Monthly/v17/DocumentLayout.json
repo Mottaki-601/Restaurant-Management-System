@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|e:\\github\\project\\6. mvc5\\mfc kitchen\\1291387\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{388959F5-0C0B-439F-8E48-12757A22BB5B}|1291387\\1291387.csproj|solutionrelative:1291387\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Views\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "1291387\\Views\\Manage\\Index.cshtml",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Views\\Manage\\Index.cshtml",
+              "RelativeToolTip": "1291387\\Views\\Manage\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-07T11:47:32.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "1291387\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "1291387\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-07T11:45:13.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\ManageController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAYwE8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:34.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:33.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodsController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\FoodsController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\FoodsController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\FoodsController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\FoodsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:29.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FoodItemsController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\FoodItemsController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\FoodItemsController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\FoodItemsController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\FoodItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:31.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:31.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "1291387\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\GitHub\\Project\\6. MVC5\\MFC Kitchen\\1291387\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "1291387\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAACtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T11:36:30.404Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

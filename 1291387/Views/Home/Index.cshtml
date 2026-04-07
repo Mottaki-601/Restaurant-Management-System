@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<style>
+    .hero-banner {
+        background: linear-gradient(135deg, #FF512F 0%, #DD2476 100%);
+        border-radius: 25px;
+        padding: 60px 40px;
+        color: white;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 15px 30px rgba(221, 36, 118, 0.3);
+        margin-bottom: 40px;
+    }
+
+    .hero-banner::before {
+        content: '';
+        position: absolute;
+        top: -50%; right: -10%;
+        width: 400px; height: 400px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+    }
+
+    .hero-title {
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-text {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 30px;
+        max-width: 600px;
+    }
+
+    .feature-card {
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        border: 1px solid #eee;
+        height: 100%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        border-color: #DD2476;
+    }
+
+    .icon-box {
+        width: 80px; height: 80px;
+        line-height: 80px;
+        font-size: 40px;
+        background: #fff0f5;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        color: #DD2476;
+    }
+
+    .btn-custom-light {
+        background: white;
+        color: #DD2476;
+        border: none;
+        font-weight: bold;
+        padding: 12px 30px;
+        border-radius: 50px;
+        transition: 0.3s;
+    }
+    .btn-custom-light:hover {
+        background: #ffe6e6;
+        transform: scale(1.05);
+    }
+</style>
+
+<main>
+    <section class="hero-banner text-start">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <h1 class="hero-title">Delicious Food<br>Manager</h1>
+                <p class="hero-text">
+                    Manage your restaurant's inventory, track food items, and update stock efficiently. 
+                    The best admin experience for the best food in town.
+                </p>
+                <a href="@Url.Action("Index", "Foods")" class="btn btn-custom-light btn-lg shadow">
+                    🍔 Browse Menu
+                </a>
+                <a href="@Url.Action("Create", "Foods")" class="btn btn-outline-light btn-lg ms-2 rounded-pill">
+                    + Add New Item
+                </a>
+            </div>
+            <div class="col-md-4 d-none d-md-block text-center">
+                <div style="font-size: 150px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));">
+                    🍟
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="icon-box">🍕</div>
+                <h3 class="fw-bold">Food Menu</h3>
+                <p class="text-muted">View all available food items, prices, and details in one place.</p>
+                <a href="@Url.Action("Index", "Foods")" class="btn btn-outline-danger rounded-pill mt-2">View List &raquo;</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="icon-box">📦</div>
+                <h3 class="fw-bold">Stock Control</h3>
+                <p class="text-muted">Monitor inventory quantity, available sizes, and re-stock when needed.</p>
+                <a href="@Url.Action("Create", "Foods")" class="btn btn-outline-success rounded-pill mt-2">Update Stock &raquo;</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="icon-box">📋</div>
+                <h3 class="fw-bold">Categories</h3>
+                <p class="text-muted">Organize your food items into categories like Burgers, Pizza, and Drinks.</p>
+                <a href="@Url.Action("Index","Categories")" class="btn btn-outline-primary rounded-pill mt-2">Manage Categories &raquo;</a>
+            </div>
+        </div>
+    </div>
+</main>

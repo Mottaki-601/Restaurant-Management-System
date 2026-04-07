@@ -1,0 +1,24 @@
+﻿@{
+        ViewBag.Title = "Edit";
+    }
+
+    <div class="container mt-5">
+        <div class="card shadow-lg border-0 overflow-hidden" style="border-radius: 15px;">
+            <div class="row g-0">
+                <div class="col-md-4 bg-primary text-white d-flex flex-column justify-content-center align-items-center p-5">
+                    <h2 class="font-weight-bold">EDIT</h2>
+                    <p class="text-center opacity-75">Make changes to your record carefully.</p>
+                    <div style="font-size: 50px; opacity: 0.3;">
+                        <i class="glyphicon glyphicon-edit"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-8 bg-white p-5">
+                    <div id="form-div">
+                        @Html.Action("EditForm", new { id = ViewBag.Id })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Food Menu";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link href="~/Content/font-awesome.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-color: #f4f6f9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .custom-card {
+        border: none;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .gradient-text {
+        background: linear-gradient(45deg, #007bff, #6610f2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+    .btn-gradient-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 25px;
+        box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .btn-gradient-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+            color: white;
+        }
+
+    .fa-plus-circle {
+        margin-right: 8px;
+    }
+
+    .table-wrapper {
+        border-radius: 0 0 15px 15px;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="custom-card mb-5">
+
+                <div class="card-header bg-white border-0 d-flex justify-content-between align-items-center p-4">
+                    <div>
+                        <h2 class="mb-0 gradient-text"><i class="fas fa-hamburger me-2"></i> Fast Food Menu</h2>
+                        <p class="text-muted small mb-0 ms-1">Manage your food items and stocks efficiently</p>
+                    </div>
+
+                    <div>
+                        <a href="@Url.Action("Create", "Foods")" class="btn-gradient-primary">
+                            <i class="fas fa-plus-circle"></i> Create New Item
+                        </a>
+                    </div>
+                </div>
+
+                <div id="table-div" class="table-wrapper p-0">
+                    @Html.Action("FoodTable")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+
+    <script>
+        $(document).on("click", ".toggle-btn", function (e) {
+            e.preventDefault();
+
+            var $btn = $(this);
+            var $icon = $btn.find('i');
+            var $detailsRow = $btn.closest('tr').next();
+
+            $detailsRow.stop().fadeToggle(300);
+
+            if ($icon.hasClass('fa-chevron-right')) {
+                $icon.removeClass('fa-chevron-right').addClass('fa-chevron-down');
+                $btn.addClass('text-primary'); 
+            } else {
+                $icon.removeClass('fa-chevron-down').addClass('fa-chevron-right');
+                $btn.removeClass('text-primary');
+            }
+        });
+
+        function deleteItem(id) {
+            if (confirm("Are you sure you want to delete this item? This cannot be undone.")) {
+                $.post('@Url.Action("Delete", "Foods")', { id: id }, function (res) {
+                    if (res.success) {
+                        location.reload();
+                    } else {
+                        alert("Error deleting item.");
+                    }
+                });
+            }
+        }
+    </script>
+}

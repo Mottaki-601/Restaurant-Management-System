@@ -1,0 +1,105 @@
+﻿@model _1291387.Models.ViewModels.FastFoodInputModel
+    @using (Ajax.BeginForm("Create", "Foods", new { }, new AjaxOptions
+    {
+        HttpMethod = "Post",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "form-div",
+        OnSuccess = "onSuccess"
+    },
+    new { id = "frm", enctype = "multipart/form-data" }))
+    {
+        <h2 class="display-5">Create New Fast-Food</h2>
+        <div class="row mb-2">
+            @Html.LabelFor(x => x.CategoryId, new { @class = "col-form-label col-2 text-end" })
+            <div class="col-8">
+                @Html.DropDownListFor(x => x.CategoryId, new SelectList(ViewBag.Categories, "CategoryId", "CategoryName"), "-----Select One-----", new { @class = "form-select form-select-sm" })
+            </div>
+        </div>
+        <div class="row mb-2">
+            @Html.LabelFor(x => x.FoodItemId, new { @class = "col-form-label col-2 text-end" })
+            <div class="col-8">
+                @Html.DropDownListFor(x => x.FoodItemId, new SelectList(ViewBag.FoodItems, "FoodItemId", "ItemName"), "-----Select One-----", new { @class = "form-select form-select-sm" })
+            </div>
+        </div>
+        <div class="row mb-2">
+            @Html.LabelFor(x => x.Name, new { @class = "col-form-label col-2 text-end" })
+            <div class="col-8">
+                @Html.TextBoxFor(x => x.Name, new { @class = "form-control form-control-sm" })
+            </div>
+        </div>
+        <div class="row mb-2">
+            @Html.LabelFor(x => x.FirstIntroduceOn, new { @class = "col-form-label col-2 text-end" })
+            <div class="col-8">
+                @Html.TextBoxFor(x => x.FirstIntroduceOn, new { @class = "form-control form-control-sm", type = "date", @Value = DateTime.Today.ToString("yyyy-MM-dd") })
+            </div>
+        </div>
+        <div class="row mb-2">
+            @Html.LabelFor(x => x.Picture, new { @class = "col-form-label col-2 text-end" })
+            <div class="col-8">
+                @Html.TextBoxFor(x => x.Picture, new { @class = "form-control form-control-sm", type = "file" })
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-8 offset-2">
+                <div class="form-check">
+                    @Html.CheckBoxFor(x => x.isAvailable)
+                    <label class="form-check-label">
+                        Is Available?
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-8 offset-2">
+                <div class="d-flex justify-content-end">
+                    <h2 class="display-6">Stock</h2>
+                    <button class="btn btn-sm" type="submit" name="act" value="add" formnovalidate>+</button>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Stocks.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.EnumDropDownListFor(x => Model.Stocks[i].Size, new { @class = "form-select form-select-sm" })
+                                    @Html.ValidationMessageFor(x => Model.Stocks[i].Size, "", new { @class = "text-danger" })
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => Model.Stocks[i].Price, new { @class = "form-control form-control-sm" })
+                                    @Html.ValidationMessageFor(x => Model.Stocks[i].Price, "", new { @class = "text-danger" })
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => Model.Stocks[i].Quantity, new { @class = "form-control form-control-sm" })
+                                    @Html.ValidationMessageFor(x => Model.Stocks[i].Quantity, "", new { @class = "text-danger" })
+                                </td>
+                                <td>
+                                    <button name="act" value="remove_@i" type="submit" class="btn btn-danger btn-sm" formnovalidate>Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-8 offset-2">
+                <div class="d-flex gap-2">
+                    <button type="submit" name="act" value="insert" class="btn btn-primary">Save</button>
+
+                    <a href="@Url.Action("Index", "Foods")" class="btn btn-outline-secondary">
+                        <i class="fa fa-arrow-left"></i> Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    }

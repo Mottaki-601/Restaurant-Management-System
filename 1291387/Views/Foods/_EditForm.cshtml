@@ -1,0 +1,214 @@
+﻿@model _1291387.Models.ViewModels.FastFoodInputModel
+
+<style>
+    .form-container {
+        padding: 10px;
+    }
+
+    .modern-input {
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid #ced4da;
+        border-radius: 8px;
+        padding: 10px 15px;
+        transition: all 0.3s ease;
+    }
+
+        .modern-input:focus {
+            background: #fff;
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+    .form-label-custom {
+        font-weight: 600;
+        color: #495057;
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    .table-custom {
+        border-collapse: separate;
+        border-spacing: 0 8px;
+    }
+
+        .table-custom thead th {
+            background-color: #e9ecef;
+            color: #495057;
+            border: none;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            padding: 12px;
+            font-weight: 700;
+        }
+
+        .table-custom tbody tr {
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .table-custom td {
+            vertical-align: middle;
+            border: none;
+            padding: 10px;
+        }
+
+    .img-preview-box {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        object-fit: cover;
+        border: 3px solid #fff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .btn-circle-danger {
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s;
+    }
+
+        .btn-circle-danger:hover {
+            transform: scale(1.1);
+            background-color: #dc3545;
+            color: white;
+        }
+</style>
+
+<div class="form-container">
+    @using (Ajax.BeginForm("Edit", "Foods", new { }, new AjaxOptions
+    {
+        HttpMethod = "Post",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "form-div"
+    },
+    new { id = "frm", enctype = "multipart/form-data" }))
+    {
+        @Html.HiddenFor(x => x.FastFoodId)
+
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h4 class="text-primary fw-bold" style="letter-spacing: 1px;">UPDATE DETAILS</h4>
+                <div style="width: 60px; height: 3px; background: #007bff; margin: 5px auto; border-radius: 2px;"></div>
+            </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+            <div class="col-md-6">
+                @Html.LabelFor(x => x.CategoryId, "Category", new { @class = "form-label-custom" })
+                @Html.DropDownListFor(x => x.CategoryId, new SelectList(ViewBag.Categories, "CategoryId", "CategoryName"), "Select Category", new { @class = "form-select modern-input" })
+                @Html.ValidationMessageFor(x => x.CategoryId, "", new { @class = "text-danger small" })
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(x => x.FoodItemId, "Food Item", new { @class = "form-label-custom" })
+                @Html.DropDownListFor(x => x.FoodItemId, new SelectList(ViewBag.FoodItems, "FoodItemId", "ItemName"), "Select Item", new { @class = "form-select modern-input" })
+                @Html.ValidationMessageFor(x => x.FoodItemId, "", new { @class = "text-danger small" })
+            </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+            <div class="col-md-6">
+                @Html.LabelFor(x => x.Name, new { @class = "form-label-custom" })
+                @Html.TextBoxFor(x => x.Name, new { @class = "form-control modern-input", placeholder = "Enter food name" })
+                @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger small" })
+            </div>
+            <div class="col-md-6">
+                @Html.LabelFor(x => x.FirstIntroduceOn, "Intro Date", new { @class = "form-label-custom" })
+                @Html.TextBoxFor(x => x.FirstIntroduceOn, new { @class = "form-control modern-input", type = "date", @Value = Model.FirstIntroduceOn.ToString("yyyy-MM-dd") })
+                @Html.ValidationMessageFor(x => x.FirstIntroduceOn, "", new { @class = "text-danger small" })
+            </div>
+        </div>
+
+        <div class="row g-3 mb-4 align-items-center">
+            <div class="col-md-10">
+                @Html.LabelFor(x => x.Picture, "Update Image", new { @class = "form-label-custom" })
+                @Html.TextBoxFor(x => x.Picture, new { @class = "form-control modern-input", type = "file" })
+            </div>
+            <div class="col-md-2 text-end">
+                @if (ViewBag.CurrentPic != null)
+                {
+                    <img src="~/Images/@ViewBag.CurrentPic" class="img-preview-box" title="Current Image" />
+                }
+            </div>
+        </div>
+
+        <div class="mb-4 p-3 rounded" style="background: rgba(0, 123, 255, 0.05); border: 1px dashed #007bff;">
+            <div class="form-check form-switch">
+                @Html.CheckBoxFor(x => x.isAvailable, new { @class = "form-check-input", style = "cursor: pointer; width: 3em;" })
+                <label class="form-check-label fw-bold ms-2" for="isAvailable" style="padding-top: 2px;">Available for Order?</label>
+            </div>
+        </div>
+
+        <hr class="text-muted my-4" />
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="text-secondary m-0 fw-bold"><i class="glyphicon glyphicon-list-alt"></i> Stock Management</h5>
+            <button class="btn btn-success btn-sm rounded-pill px-3 shadow-sm fw-bold" type="submit" name="act" value="add" formnovalidate>
+                <i class="glyphicon glyphicon-plus"></i> Add Size
+            </button>
+        </div>
+
+        <div class="table-responsive rounded-3 mb-4">
+            <table class="table table-custom mb-0">
+                <thead>
+                    <tr>
+                        <th width="30%">Size</th>
+                        <th width="30%">Price ($)</th>
+                        <th width="30%">Qty</th>
+                        <th width="10%" class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Stocks.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                @Html.EnumDropDownListFor(x => Model.Stocks[i].Size, new { @class = "form-select form-select-sm border-0 bg-transparent fw-bold" })
+                                @Html.ValidationMessageFor(x => Model.Stocks[i].Size, "", new { @class = "text-danger small" })
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(x => Model.Stocks[i].Price, new { @class = "form-control form-control-sm border-0 bg-transparent text-end" })
+                                @Html.ValidationMessageFor(x => Model.Stocks[i].Price, "", new { @class = "text-danger small" })
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(x => Model.Stocks[i].Quantity, new { @class = "form-control form-control-sm border-0 bg-transparent text-center", type = "number" })
+                                @Html.ValidationMessageFor(x => Model.Stocks[i].Quantity, "", new { @class = "text-danger small" })
+                            </td>
+                            <td class="text-center">
+                                <button name="act" value="remove_@i" type="submit" class="btn btn-outline-danger btn-circle-danger btn-sm" formnovalidate title="Remove Row">
+                                    &times;
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                    @if (Model.Stocks.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center text-muted py-4 fst-italic">
+                                No stock details added. Please add at least one size.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row g-2 pt-2">
+            <div class="col-4">
+                <a href="@Url.Action("Index", "Foods")" class="btn btn-outline-secondary w-100 py-2 shadow-sm fw-bold">
+                    <i class="glyphicon glyphicon-arrow-left"></i> Back
+                </a>
+            </div>
+            <div class="col-8">
+                <button type="submit" name="act" value="update" class="btn btn-primary w-100 py-2 shadow-sm text-uppercase" style="letter-spacing: 1px; font-weight: 700;">
+                    Update Record
+                </button>
+            </div>
+        </div>
+    }
+</div>

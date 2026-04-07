@@ -1,0 +1,635 @@
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\1291387.dll.config
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\1291387.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\1291387.pdb
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csc.exe
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csc.exe.config
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csc.rsp
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csi.exe
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csi.exe.config
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\csi.rsp
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.Managed.Core.targets
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.AppContext.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Collections.Immutable.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Console.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Globalization.Calendars.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.IO.Compression.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.IO.FileSystem.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Net.Http.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Net.Sockets.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Reflection.Metadata.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.ValueTuple.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Xml.XmlDocument.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Xml.XPath.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\vbc.exe
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\vbc.exe.config
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\vbc.rsp
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\VBCSCompiler.exe
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\roslyn\VBCSCompiler.exe.config
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Antlr3.Runtime.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\EntityFramework.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\EntityFramework.SqlServer.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Google.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Web.Infrastructure.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Newtonsoft.Json.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Owin.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Helpers.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Mvc.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Optimization.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Razor.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.Deployment.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.Razor.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\WebGrease.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Helpers.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Mvc.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Optimization.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.Razor.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.Deployment.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Web.WebPages.Razor.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Newtonsoft.Json.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Antlr3.Runtime.pdb
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\EntityFramework.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\EntityFramework.SqlServer.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Google.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.csproj.AssemblyReference.cache
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.csproj.CoreCompileInputs.cache
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.csproj.Up2Date
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.pdb
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\_1291387.Migrations.ScriptA.resources
+E:\6. MVC5\Project\Monthly\Monthly\1291387\obj\Debug\1291387.csproj.GenerateResource.cache
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\PagedList.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\PagedList.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\PagedList.Mvc.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\X.PagedList.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Buffers.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Memory.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Numerics.Vectors.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Text.Encodings.Web.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\X.PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\X.PagedList.Web.Common.dll
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Buffers.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Memory.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Numerics.Vectors.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\6. MVC5\Project\Monthly\Monthly\1291387\bin\System.Text.Encodings.Web.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\1291387.dll.config
+F:\Mottaki\MVC\Monthly\1291387\bin\1291387.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\1291387.pdb
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csc.exe
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csc.exe.config
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csc.rsp
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csi.exe
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csi.exe.config
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\csi.rsp
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.AppContext.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Collections.Immutable.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Console.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Globalization.Calendars.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.IO.Compression.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.IO.FileSystem.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Net.Http.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Net.Sockets.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Reflection.Metadata.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.ValueTuple.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Xml.XPath.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\vbc.exe
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\vbc.exe.config
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\vbc.rsp
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\VBCSCompiler.exe
+F:\Mottaki\MVC\Monthly\1291387\bin\roslyn\VBCSCompiler.exe.config
+F:\Mottaki\MVC\Monthly\1291387\bin\Antlr3.Runtime.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\EntityFramework.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\EntityFramework.SqlServer.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Google.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Web.Infrastructure.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Newtonsoft.Json.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\Owin.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\PagedList.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\PagedList.Mvc.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Buffers.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Memory.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Numerics.Vectors.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Text.Encodings.Web.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Helpers.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Mvc.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Optimization.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Razor.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.Deployment.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.Razor.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\WebGrease.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\X.PagedList.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\X.PagedList.Mvc.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\X.PagedList.Web.Common.dll
+F:\Mottaki\MVC\Monthly\1291387\bin\EntityFramework.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\EntityFramework.SqlServer.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\PagedList.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\PagedList.Mvc.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Buffers.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Memory.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Numerics.Vectors.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Text.Encodings.Web.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Helpers.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Mvc.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Optimization.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.Razor.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.Deployment.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\System.Web.WebPages.Razor.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Newtonsoft.Json.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Antlr3.Runtime.pdb
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Google.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Mottaki\MVC\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.csproj.AssemblyReference.cache
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\_1291387.Migrations.ScriptA.resources
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.csproj.GenerateResource.cache
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.csproj.CoreCompileInputs.cache
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.csproj.Up2Date
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.dll
+F:\Mottaki\MVC\Monthly\1291387\obj\Debug\1291387.pdb
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\1291387.dll.config
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\1291387.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\1291387.pdb
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csc.exe
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csc.exe.config
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csc.rsp
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csi.exe
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csi.exe.config
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\csi.rsp
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.Managed.Core.targets
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.AppContext.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Collections.Immutable.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Console.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Globalization.Calendars.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.IO.Compression.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.IO.FileSystem.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Net.Http.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Net.Sockets.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Reflection.Metadata.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.ValueTuple.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Xml.XmlDocument.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Xml.XPath.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\vbc.exe
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\vbc.exe.config
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\vbc.rsp
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\VBCSCompiler.exe
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\roslyn\VBCSCompiler.exe.config
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Antlr3.Runtime.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\EntityFramework.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\EntityFramework.SqlServer.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Google.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Web.Infrastructure.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Newtonsoft.Json.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Owin.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\PagedList.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Buffers.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Memory.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Numerics.Vectors.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Text.Encodings.Web.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Helpers.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Mvc.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Optimization.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Razor.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.Deployment.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.Razor.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\WebGrease.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\X.PagedList.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\X.PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\X.PagedList.Web.Common.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\EntityFramework.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\EntityFramework.SqlServer.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\PagedList.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\PagedList.Mvc.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Buffers.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Memory.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Numerics.Vectors.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Text.Encodings.Web.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Helpers.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Mvc.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Optimization.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.Razor.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.Deployment.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\System.Web.WebPages.Razor.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Newtonsoft.Json.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Antlr3.Runtime.pdb
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Google.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.csproj.AssemblyReference.cache
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\_1291387.Migrations.ScriptA.resources
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.csproj.GenerateResource.cache
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.csproj.CoreCompileInputs.cache
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.csproj.Up2Date
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.dll
+E:\6. MVC5\Project\Monthly-20260117T165044Z-1-001\Monthly\1291387\obj\Debug\1291387.pdb
+E:\6. MVC5\Project\Monthly\1291387\bin\1291387.dll.config
+E:\6. MVC5\Project\Monthly\1291387\bin\1291387.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\1291387.pdb
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csc.exe
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csc.exe.config
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csc.rsp
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csi.exe
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csi.exe.config
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\csi.rsp
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.Managed.Core.targets
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.AppContext.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Collections.Immutable.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Console.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Globalization.Calendars.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.IO.Compression.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.IO.FileSystem.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Net.Http.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Net.Sockets.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Reflection.Metadata.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.ValueTuple.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Xml.XmlDocument.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Xml.XPath.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\vbc.exe
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\vbc.exe.config
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\vbc.rsp
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\VBCSCompiler.exe
+E:\6. MVC5\Project\Monthly\1291387\bin\roslyn\VBCSCompiler.exe.config
+E:\6. MVC5\Project\Monthly\1291387\bin\Antlr3.Runtime.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\EntityFramework.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\EntityFramework.SqlServer.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Google.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Web.Infrastructure.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Newtonsoft.Json.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\Owin.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\PagedList.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Buffers.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Memory.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Numerics.Vectors.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Text.Encodings.Web.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Helpers.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Mvc.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Optimization.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Razor.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.Deployment.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.Razor.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\WebGrease.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\X.PagedList.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\X.PagedList.Mvc.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\X.PagedList.Web.Common.dll
+E:\6. MVC5\Project\Monthly\1291387\bin\EntityFramework.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\EntityFramework.SqlServer.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\PagedList.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\PagedList.Mvc.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Buffers.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Memory.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Numerics.Vectors.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Text.Encodings.Web.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Helpers.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Mvc.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Optimization.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.Razor.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.Deployment.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\System.Web.WebPages.Razor.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Newtonsoft.Json.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Antlr3.Runtime.pdb
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.Core.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Facebook.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Cookies.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Google.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.Twitter.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.Owin.Security.OAuth.xml
+E:\6. MVC5\Project\Monthly\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.csproj.AssemblyReference.cache
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\_1291387.Migrations.ScriptA.resources
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.csproj.GenerateResource.cache
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.csproj.CoreCompileInputs.cache
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.csproj.Up2Date
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.dll
+E:\6. MVC5\Project\Monthly\1291387\obj\Debug\1291387.pdb
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\1291387.dll.config
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\1291387.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\1291387.pdb
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csc.exe
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csc.exe.config
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csc.rsp
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csi.exe
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csi.exe.config
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\csi.rsp
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.Managed.Core.targets
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.AppContext.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Collections.Immutable.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Console.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Globalization.Calendars.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.IO.Compression.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.IO.FileSystem.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Net.Http.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Net.Sockets.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Reflection.Metadata.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.ValueTuple.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Xml.XmlDocument.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Xml.XPath.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\vbc.exe
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\vbc.exe.config
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\vbc.rsp
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\VBCSCompiler.exe
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\roslyn\VBCSCompiler.exe.config
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Antlr3.Runtime.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\EntityFramework.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\EntityFramework.SqlServer.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Google.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Web.Infrastructure.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Newtonsoft.Json.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Owin.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\PagedList.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\PagedList.Mvc.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Buffers.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Memory.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Numerics.Vectors.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Text.Encodings.Web.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Helpers.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Mvc.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Optimization.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Razor.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.Deployment.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.Razor.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\WebGrease.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\X.PagedList.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\X.PagedList.Mvc.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\X.PagedList.Web.Common.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\EntityFramework.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\EntityFramework.SqlServer.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\PagedList.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\PagedList.Mvc.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Buffers.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Memory.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Numerics.Vectors.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Text.Encodings.Web.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Helpers.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Mvc.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Optimization.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.Razor.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.Deployment.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\System.Web.WebPages.Razor.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Newtonsoft.Json.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Antlr3.Runtime.pdb
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Google.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.csproj.AssemblyReference.cache
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\_1291387.Migrations.ScriptA.resources
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.csproj.GenerateResource.cache
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.csproj.CoreCompileInputs.cache
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.csproj.Up2Date
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.dll
+E:\GitHub\Project\6. MVC5\MFC Kitchen\1291387\obj\Debug\1291387.pdb

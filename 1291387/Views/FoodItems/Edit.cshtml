@@ -1,0 +1,151 @@
+﻿
+@model _1291387.Models.FoodItem
+
+@{
+    ViewBag.Title = "Edit Food Item";
+}
+
+<style>
+    .edit-wrapper {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .edit-card {
+        background: #ffffff;
+        width: 100%;
+        max-width: 450px;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        border-left: 6px solid #3498db; 
+        position: relative;
+    }
+
+        .edit-card::after {
+            content: "EDIT MODE";
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 10px;
+            font-weight: bold;
+            color: #3498db;
+            letter-spacing: 2px;
+            opacity: 0.6;
+        }
+
+    .edit-header h2 {
+        font-weight: 800;
+        color: #2c3e50;
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+
+    .edit-header p {
+        color: #7f8c8d;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .edit-input {
+        height: 45px;
+        border-radius: 10px;
+        border: 2px solid #ecf0f1;
+        padding: 10px 15px;
+        transition: all 0.3s;
+        font-size: 15px;
+    }
+
+        .edit-input:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+            outline: none;
+        }
+
+    .btn-update {
+        background: #3498db;
+        color: white !important;
+        border: none;
+        height: 45px;
+        width: 100%;
+        border-radius: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+
+        .btn-update:hover {
+            background: #2980b9;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+    .back-btn {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #95a5a6;
+        text-decoration: none !important;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+        .back-btn:hover {
+            color: #34495e;
+        }
+
+    .text-danger {
+        font-size: 12px;
+        margin-top: 5px;
+        display: block;
+    }
+</style>
+
+<div class="edit-wrapper">
+    <div class="edit-card">
+        <div class="edit-header">
+            <h2>Update Item</h2>
+            <p>Modify the details of your food item</p>
+        </div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(model => model.FoodItemId)
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <label class="control-label col-md-12" style="text-align: left; color: #34495e; font-weight: 600; margin-bottom: 8px;">
+                        Item Name
+                    </label>
+                    <div class="col-md-12">
+                        @Html.EditorFor(model => model.ItemName, new { htmlAttributes = new { @class = "form-control edit-input", @placeholder = "Enter item name..." } })
+                        @Html.ValidationMessageFor(model => model.ItemName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn-update">
+                            <i class="glyphicon glyphicon-refresh"></i> Update Item
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <a href="@Url.Action("Index")" class="back-btn">
+            <i class="glyphicon glyphicon-arrow-left"></i> Cancel and Go Back
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

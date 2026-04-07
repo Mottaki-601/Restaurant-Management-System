@@ -1,0 +1,61 @@
+﻿@model _1291387.Models.Category
+
+@{
+    ViewBag.Title = "Edit Category";
+}
+
+<style>
+    .edit-container {
+        max-width: 500px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        border-top: 5px solid #ffc107; 
+    }
+
+    .form-control:focus {
+        border-color: #ffc107;
+        box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    }
+
+    .page-title {
+        color: #333;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+
+<div class="edit-container">
+    <h2 class="page-title">Update Category</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.CategoryId)
+
+        <div class="form-group">
+            <label class="control-label text-muted">Category Name</label>
+            @Html.EditorFor(model => model.CategoryName, new { htmlAttributes = new { @class = "form-control input-lg" } })
+            @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
+        </div>
+
+        <br />
+
+        <div class="form-group">
+            <input type="submit" value="Update Now" class="btn btn-warning btn-block btn-lg text-white w-100" />
+        </div>
+
+        <div class="text-center mt-3">
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "text-muted", style = "text-decoration:none;" })
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
